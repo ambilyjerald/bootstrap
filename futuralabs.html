@@ -1,0 +1,499 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+   <style>
+        .container-fluid {
+            padding: 0;
+        }
+        
+        #logo {
+            margin-left: 100px; /* Adjusted margin for the logo */
+        }
+
+        /* Remove the background-color style for the nav */
+        /* #list {
+            background-color: silver; 
+        } */
+
+        /* Adjusted positioning for responsiveness */
+        #navbarSupportedContent {
+
+            margin-left: 200px;
+            font-size: 16px;
+            font-weight: 500;
+            font-family: inherit;
+        }
+        #navbarSupportedContent ul li a:hover{
+          color: #FFAA3F;
+        }
+       ul li a .btn:hover{
+        background-color: #F35B04;
+       }
+        .btn:hover{
+          background-color: green;
+        }
+      
+       ul li{
+        padding: 7px;
+       }
+       #nav3{
+        position: fixed;
+       background-color: white;
+        width: 100%;
+        z-index: 1000;
+       }
+       #fut{
+        position: relative;
+        left: 10px;
+       }
+       ul.social li a {
+    background: linear-gradient(99.79deg,#402060 1.01%,#602c93 98.69%);
+    box-shadow: 0px 0px 5px rgba(0,0,0,25%);
+    border-radius: 5px;
+    width: 36px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 5px;
+    color: white;
+       }
+      .stay{
+        font-size: 23px;
+        font-weight:2000px;
+      }
+      a{
+        text-decoration: none;
+        color: black;
+      }
+      ul li{
+        margin-right: 10px;
+      }
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-light bg-body-tertiary" id="nav3">
+            <div class="container-fluid">
+                <a class="navbar-brand" id="logo" href="#"><img src="./futura-labs.svg" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0" id="list">
+                        <!-- Your list items go here -->
+                        <li class="nav-item">
+                          <a class="nav-link active" aria-current="page" href="#" style="color: #402060;">Home</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link active" href="#">about</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                          <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Internship
+                          </a>
+                          <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                          </ul>
+                        </li>
+                        <li class="nav-item active">
+                          <a class="nav-link active" href="#">Placements</a>
+
+                        </li>
+                        <li class="nav-item active">
+                          <a class="nav-link active" href="#">Careers</a>
+
+                        </li>
+                        <li class="nav-item active">
+                          <a class="nav-link active" href="#">Contact</a>
+
+                        </li>
+                        <li class="nav-item active">
+                          <a class="nav-link active" href="#" id="btn5"><button type="button" class="btn" id="btn2" style="color: white;font-weight: bold;background-image:  linear-gradient(95.04deg, #FFAA3F 0.82%, #F35B04 97.35%);
+                            ;border: none;">Get in Touch<span style='font-size:15px;font-weight: bolder;'>&#8594;</span>
+                            </button></a>
+
+                        </li>
+                      </ul>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+   <div class="section-1" style="background-image: url(./banner.jpg);
+   
+   width: 100%;
+   height: 642px;
+   background-size: cover;
+       background-repeat: no-repeat;" >
+      <h1 class="hd text-light" style="position: relative;left: 370px;top: 170px; font-size: 60px;">Enable. Transform. Accelerate.</h1>
+      <p class="para text-light" style="text-align: center;padding-top: 200px;">Be a part of FUTURA LABS, the best learning platform to transform you into a skilled and trained IT <br>professional. We are one of Calicut's most trusted software training institutes, with the highest placement <br> records. Join our hands to get your dream job and stand firm in the industry with all the confidence and <br> proficiency.</p>
+       <div class="buttons pt-3" style="margin-left: 550px;margin-top: 10px;">
+        <button type="button " class="btn" id="btn2" style="color: white;font-weight: bold;background-image: linear-gradient(95.04deg, #FFAA3F 0.82%, #F35B04 97.35%);
+        border: none;">Get in Touch<span style='font-size:15px;font-weight: bolder;'><span style="font-size: 20px;position: relative;left: 4px;font-weight: bold;">&#8595;</span></span>
+        </button>
+        <button type="button " class="btn ms-2" id="btn2 " style="color: white;font-weight: bold;background-image: linear-gradient(95.04deg, #FFAA3F 0.82%, #F35B04 97.35%);
+        ">Call:799 442 00 46<span style='font-size:15px;font-weight: bolder;'> <span style="font-size: 20px;position: relative;left: 4px;font-weight: bold;">&#8595;</span></span>
+        </button>
+       </div>                             
+    </div>
+    <div class="section-2" style="background-color: white;height: 600px;;">
+      <h1 class="hdg" style="text-align: center;position: relative;top: 120px;font-weight: bolder;">Our Process</h1>
+      <div class="boxes "style="position: relative;top:100px ;left: 100px;">
+        <div class="arrow "><img src="./images/dot-arrow1.png" alt="" height="50px" style="position: relative;top: 100px;left:350px;"></div>
+        <div class="arrow "><img src="./images/dot-arrow1.png" alt="" height="50px" style="position: relative;top: 50px;left:800px;"></div>
+
+      <div class="box1 rounded-bottom-5 rounded-end-5  ms-5 " style="height: 250px;width: 180px;background-color: #FFEDED;position: relative;top: 50px;float: left;">
+           <img src="./understanding.png" alt="" height="60px" class="fut ms-5 mt-4" id="fut">
+           <p class="para6  mt-3" style="text-align: center;">Understanding & Creating a Customised Training Plan for each student.</p>
+      </div>
+      <div class="box2 rounded-bottom-5 rounded-end-5  ms-5 " style="height: 250px;width: 180px;background-color: #FFEDED;position: relative;top: 50px;float: left;">
+        <img src="./images/student.png" alt="" height="60px"  class="fut ms-5 mt-4"  id="fut">
+        <p class="para6 mt-3 " style="text-align: center;">Enabling the student <br> for the Industry</p>
+</div>
+
+<div class="box3 rounded-bottom-5 rounded-end-5  ms-5 " style="height: 250px;width: 180px;background-color: rgb(186, 218, 231);
+;position: relative;top: 50px;float: left;">
+        <img src="./images/professional.png" alt="" height="60px"  class="fut ms-5 mt-4"  id="fut">
+        <p class="para6 mt-3 " style="text-align: center;">  Transforming the <br>Student as a Professional  </p>         
+
+</div>
+<div class="box4 rounded-bottom-5 rounded-end-5  ms-5 " style="height: 250px;width: 180px;background-color: rgb(189, 242, 239);position: relative;top: 50px;float: left;">
+       <img src="./images/skills.png" alt="" height="60px"   class="fut ms-5 mt-4"  id="fut">
+       <p class="para6 mt-3" style="text-align: center;">Accelerating the <br>Skills
+      </p>
+</div>
+
+<div class="box5 rounded-bottom-5 rounded-end-5  ms-5 " style="height: 250px;width: 180px;background-color:rgb(192, 192, 192);position: relative;top: 50px;float: left;">
+         <img src="./images/oppertunity.png" alt="" height="60px"   class="fut ms-5 mt-4"  id="fut">
+         <p class="para6 mt-3"  style="text-align: center;">Providing Placement Opportunities</p>
+        </div>
+        <div class="arrow "><img src="./images/dot-arrow2.png" alt="" height="50px" style="position: relative;top: 50px;left: 130px;"></div>
+        <div class="arrow "><img src="./images/dot-arrow2.png" alt="" height="50px" style="position: relative;top: 0px;left: 600px;"></div>
+  
+      </div>
+      </div>
+   <div class="section-3">
+    <h1 class="hdg" style="text-align: center;position: relative;top: 120px;font-weight: bolder;">Why Choose Us</h1><br><br>
+    <div class="row mx-5" style="margin-top: 100px;">
+      <div class="col-12 col-sm-12 col-md-4 col-lg-3 ">
+        <div class="whyCvr box1 rounded-bottom-5 rounded-end-5  ms-5 " style="height: 450px;width: 250px;background-color: #FFEDED;position: relative;top: 50px;float: left;text-align: center;">
+            <div class="whImg">
+                <img src="./images/quality.png" alt="Affordable Fee" height="70px" class="imag mt-5" title="Affordable Fee" style="position: relative;left:30;top:10"> 
+            </div>
+            <div class="whHead mt-4">
+              <b>High Quality Syllabus</b>
+               
+              </div>
+              <p class="para11 mt-4">
+                The Syllabus is <br>comprehensively designed, keeping the industry <br>standards under the watchful <br> eye of industry experts.</p>
+      </div>
+      
+  </div>
+  
+    <div class="col-12 col-sm-12 col-md-4 col-lg-3 ">
+      <div class="whyCvr box1 rounded-bottom-5 rounded-end-5  ms-5 " style="height: 450px;width: 250px;background-color: #FFEDED;position: relative;top: 50px;float: left;text-align: center;">
+          <div class="whImg">
+              <img src="./images/hands.png" class="imag mt-5" alt="Affordable Fee" height="70px"  style="position: relative;left:30;top:10"> 
+          </div>
+          <div class="whHead mt-4">
+              <b>Hands On Training</b>                 
+            </div>
+         
+              <p class="para11 mt-4">Our expert trainers provide <br>the students with hands-on <br>live projects under their <br>supervision to give them <br> disclosure of performing <br> different jobs in the industry.</p>
+
+
+      </div>
+      </div>
+      <div class="col-12 col-sm-12 col-md-4 col-lg-3 ">
+        <div class="whyCvr box1 rounded-bottom-5 rounded-end-5  ms-5 " style="height: 450px;width: 250px;background-color: #FFEDED;position: relative;top: 50px;float: left;text-align: center;">
+            <div class="whImg">
+                <img src="./images/trainers.png" class="imag mt-5" alt="Affordable Fee" height="70px"  title="Affordable Fee" style="position: relative;left:30;top:10"> 
+            </div>
+            <div class="whHead mt-4">
+                <b>Well Experienced Trainers</b>                 
+              </div>
+           
+                <p class="para11 mt-4">We have the most skilled and specialized trainers who <br> provide outstanding  <br>mentorship to each student <br> to help them flourish in their <br> careers.</p>
+  
+             
+        </div>
+        
+    </div>
+    
+      <div class="col-12 col-sm-12 col-md-4 col-lg-3 ">
+        <div class="whyCvr box1 rounded-bottom-5 rounded-end-5  ms-5 " style="height: 450px;width: 250px;background-color: #FFEDED;position: relative;top: 50px;float: left;text-align: center;">
+            <div class="whImg">
+                <img src="./images/placements.png" class="imag mt-5" alt="Affordable Fee" height="70px"  title="Affordable Fee" style="position: relative;left:30;top:10"> 
+            </div>
+            <div class="whHead mt-4">
+                <b>Assured Placements </b>
+              
+              </div>
+             
+                  <p class="para11 mt-4">Apart from practical training, <br> we prepare our trainees for <br> interviews and propose <br>applications to ensure the <br>cracking of the right job <br> opportunity. </p>
+    
+    
+          </div>
+          
+    
+    
+        </div>
+    
+      </div>
+    
+      <div class="row mx-5" style="margin-top: 100px;">
+        <div class="col-12 col-sm-12 col-md-4 col-lg-3 ">
+          <div class="whyCvr box1 rounded-bottom-5 rounded-end-5  ms-5 " style="height: 450px;width: 250px;background-color: #FFEDED;position: relative;top: 50px;float: left;text-align: center;">
+              <div class="whImg">
+                <img src="./images/art.png" alt="Affordable Fee" height="70px" class="imag mt-5" title="Affordable Fee" style="position: relative;left:30;top:10"> 
+          </div>
+          <div class="whHead mt-4">
+            <b>High Quality Syllabus</b>
+             
+            </div>
+         
+              <p class="para11 mt-4">
+                The Syllabus is <br>comprehensively designed, keeping the industry <br>standards under the watchful <br> eye of industry experts.</p>
+      </div>
+      
+  </div>
+  <div class="col-12 col-sm-12 col-md-4 col-lg-3 ">
+    <div class="whyCvr box1 rounded-bottom-5 rounded-end-5  ms-5 " style="height: 450px;width: 250px;background-color: #FFEDED;position: relative;top: 50px;float: left;text-align: center;">
+        <div class="whImg">
+            <img src="./images/fee.png" alt="Affordable Fee" height="70px" class="imag mt-5" title="Affordable Fee" style="position: relative;left:30;top:10"> 
+        </div>
+        <div class="whHead mt-4">
+          <b>High Quality Syllabus</b>
+           
+          </div>
+       
+            <p class="para11 mt-4">
+              The Syllabus is <br>comprehensively designed, keeping the industry <br>standards under the watchful <br> eye of industry experts.</p>
+    </div>
+    
+</div>
+<div class="col-12 col-sm-12 col-md-4 col-lg-3 ">
+  <div class="whyCvr box1 rounded-bottom-5 rounded-end-5  ms-5 " style="height: 450px;width: 250px;background-color: #FFEDED;position: relative;top: 50px;float: left;text-align: center;">
+      <div class="whImg">
+          <img src="./images/company.png" alt="Affordable Fee" height="70px" class="imag mt-5" title="Affordable Fee" style="position: relative;left:30;top:10"> 
+      </div>
+      <div class="whHead mt-4">
+        <b>High Quality Syllabus</b>
+         
+        </div>
+     
+          <p class="para11 mt-4">
+            The Syllabus is <br>comprehensively designed, keeping the industry <br>standards under the watchful <br> eye of industry experts.</p>
+  </div>
+</div>
+<div class="col-12 col-sm-12 col-md-4 col-lg-3 ">
+  <div class="whyCvr box1 rounded-bottom-5 rounded-end-5  ms-5 " style="height: 450px;width: 250px;background-color: #FFEDED;position: relative;top: 50px;float: left;text-align: center;">
+      <div class="whImg">
+          <img src="./images/experts.png" alt="Affordable Fee" height="70px" class="imag mt-5" title="Affordable Fee" style="position: relative;left:30;top:10"> 
+      </div>
+      <div class="whHead mt-4">
+        <b>High Quality Syllabus</b>
+         
+        </div>
+     
+          <p class="para11 mt-4">
+            The Syllabus is <br>comprehensively designed, keeping the industry <br>standards under the watchful <br> eye of industry experts.</p>
+  </div>
+  
+</div>
+
+</div>
+
+</div>
+
+ </div>
+
+ <div class="section4" style="height: 700px;">
+    <h1 class="hdg" style="text-align: center;position: relative;top: 140px;font-weight: bolder;">You are in the right place</h1><br><br>
+          
+    <div class="box20 border  rounded-4 mx-5" style="height: 200px;width: 1050px;background-color:#D1E1F8;position: relative;top: 160px;left: 140px;">
+       <div class="row">
+        <div class="col-12 col-sm-12 col-md-4 col-lg-3 ">
+        
+        <img src="./images/Students1.png" alt="" style="position: relative;top: 50px;left: 100px;" height="30px"><br>
+       <div class="students" style="position: relative;top: 50px;left: 65px;font-weight: bolder;
+       font-size: 40px;
+       color: #2c1d3b;
+       "><span class="counter">1000</span><span style="font-weight: bolder;">+</span>
+           <div class="p ps-4"  style="color: #402060; font-size: 15px;">Students</div>
+      </div> 
+        </div>
+          
+        <div class="col-12 col-sm-12 col-md-4 col-lg-3 " >
+        
+          <img src="./images/Placements-in-a-year2.png" alt="" style="position: relative;top: 50px;left: 125px;" height="30px"><br>
+         <div class="students" style="position: relative;top: 50px;left: 80px;font-weight: bolder;
+         font-size: 40px;
+         color: #2c1d3b;
+         "><span class="counter ms-4">200</span><span style="font-weight: bolder;">+</span>
+           <div class="p "  style="color: #402060; font-size: 15px;">Placements in a year</div>
+      </div> 
+        </div>
+
+        <div class="col-12 col-sm-12 col-md-4 col-lg-3 ">
+      
+          <img src="./images/trainess3.png" alt="" style="position: relative;top: 50px;left: 110px;" height="30px"><br>
+         <div class="students" style="position: relative;top: 50px;left: 100px;font-weight: bolder;
+         font-size: 40px;
+         color: #2c1d3b;
+         "><span class="counter " >25</span><span style="font-weight: bolder;">+</span>
+             <div class="p ps-2"  style="color: #402060; font-size: 15px;">Trainers</div>
+        </div> 
+          </div>
+
+
+          <div class="col-12 col-sm-12 col-md-4 col-lg-3 ">
+      
+            <img src="./images/Courses4.png" alt="" style="position: relative;top: 50px;left: 110px;" height="30px"><br>
+           <div class="students" style="position: relative;top: 50px;left: 100px;font-weight: bolder;
+           font-size: 40px;
+           color: #2c1d3b;
+           "><span class="counter">6</span><span style="font-weight: bolder;">+</span>
+               <div class="pe-5 "  style="color: #402060; font-size: 15px;position: relative;right: 20px;">Years in the industry</div>
+          </div> 
+            </div>
+  
+     </div>
+  </div>
+ </div>
+ <div class="section5" style="height: 500px;background-color: skyblue;">
+    <div class="hdr"><span style="font-size: 25px;font-weight: bolder;position: relative;left: 150px;top: 50px;">Talk to our adviser</span></div>
+    <input type="text" name="" id="" class="type ms-3"  placeholder="    Your Name" style="height: 40px;width: 250px;position: relative;left: 140px;top: 70px;border-radius: 7px;border: none;">
+    <input type="text" name="" id="" class="type ms-3"  placeholder="    Contact No" style="height: 40px;width: 250px;position: relative;left: 140px;top: 70px;border-radius: 7px;border: none;"><br>
+
+    <input type="text" name="" id="" class="type ms-3"  placeholder="    Email" style="height: 40px;width: 250px;position: relative;left: 140px;top: 90px;border-radius: 7px;border: none;">
+    <input type="text" name="" id="" class="type ms-3"  placeholder="    Subject" style="height: 40px;width: 250px;position: relative;left: 140px;top: 90px;border-radius: 7px;border: none;"><br>
+
+    <textarea name="" id="" cols="69" rows="5"  placeholder="    Message"    style="position: relative;left: 160px;top: 120px;border-radius: 7px;border: none;"></textarea><br>
+
+
+    <button type="button" class="btn" id="btn2" style="color: white; font-weight: bold;background-image:  linear-gradient(95.04deg, #FFAA3F 0.82%, #F35B04 97.35%);
+                        ;border: none; position: relative;left: 160px;top: 140px;  height: 40px;width: 150px;">Submit<span style='font-size:15px;font-weight: bolder;'>&#8594;</span>
+        
+      </button>
+      <div class="map" style="position: relative;left: 900px;bottom: 250px;"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d978.2378548239682!2d75.77868913666579!3d11.264981518695379!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba65ec97483c521%3A0x897b1662e5074c01!2sFutura%20Labs!5e0!3m2!1sen!2sin!4v1703660718123!5m2!1sen!2sin" width="500" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+    </div>
+
+    <div class="footer" style="height: 1100px;background-color:#f5f5f5;;">
+      <button type="button" class="btn" id="btn2" style="color: white; font-weight: bold;background-image:  linear-gradient(95.04deg, #FFAA3F 0.82%, #F35B04 97.35%);
+      ;border: none; position: relative;left: 400px;top: 50px; height: 50px; width: 700px;">Talk to our career advisor today on 07994420046 or Enquire Now<span style='font-size:15px;font-weight: bolder;'>&#8594;</span>
+    </button>
+             <div class="para20" style="position: relative;left: 400px;top: 80px;font-weight:500;">Do you wish to explore,learn and excel a new skill? is it time to improve your efficiency to be on par <br> with the latest trends? FuturaLabs is the exact platform you are looking for.</div>
+    <br><br>
+
+       <table cellpadding="30px"               style="position: relative;top: 100px;left: 250px;text-align: center;" >
+        <tr class="stay">
+          <td><h4>STAY CONNECTED</h4></td>
+          <ul class="social" style="list-style: none;display: flex;flex-direction: row;position: relative;top: 270px;left: 220px;">
+            <li><a href="https://www.facebook.com/TheFuturaLabs/"><i class="bi bi-facebook"></i></a></li>
+            <li><a href="https://www.instagram.com/thefuturalabs/"><i class="bi bi-instagram"></i></a></li>
+            <li><a href="https://www.linkedin.com/company/the-futura-labs"><i class="bi bi-linkedin"></i></a></li>
+            <li><a href="https://goo.gl/maps/CyJ3S1LrhUgJypQC8"><i class="bi bi-google"></i></a></li>
+            
+
+          </ul>
+          <td><h4>FIND LOCATION AT</h4></td>
+          <td><h4>PLEASE CONTACT AS ON
+
+          </h4></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td > <i class="bi bi-geo-alt-fill" style="color: #402060;"></i>4th Floor,SG Electronica Building,<br>Wayanad Road,Near MC College,Kozhikode- <br>673011</td>
+        <td><a href="tel:7994420046" ><i class="bi bi-telephone-forward-fill" style="color: white;background-color: #402060;height: 5px;margin-right: 10px;"></i><b>799 44 200 46</b></a> <br>
+          <i class="bi bi-telephone-forward-fill" style="color: white;background-color: #402060;margin-right: 10px;"></i><b>799 44 200 45</b> <br>
+          <i class="bi bi-envelope-fill" style="color: #402060;margin-right: 10px;"></i>  <b> info@the futuralabbs.com </b>
+        </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td> <i class="bi bi-geo-alt-fill" style="color: #402060;"></i>Door No:38/3989,<br> Opposite Metro Pillar No.489,<br> Edappally South,Plarivattam Kochi Pin:682025</td>
+            <td></td>
+          </tr>
+         </table>
+         
+         <br><br><br>
+         <hr>
+
+         <h4 style="text-align: center;font-weight: bolder;">QUICK LINKS</h4>
+
+         <ul style="list-style: none;display: flex;flex-direction: row;margin-left: 410px;margin-top: 20px;font-size: 17px;font-weight: 450;">
+          <li>Home</li>
+          <li>About</li>
+          <li>Internship</li>
+          <li>Placements</li>
+          <li>Careers</li>
+          <li>Contact</li>
+          <li>Blog</li>
+          <li>Sitemap</li>
+         </ul>
+         <h4 style="text-align: center;font-weight: bolder;">COURSES</h4>
+         <ul style="list-style: none;display: flex;flex-direction: row;margin-left: 200px;margin-top: 20px;font-size: 17px;font-weight: 450;">
+          <li>Python-Django Fullstack</li>
+          <li>Php-Laravel Fullstack</li>
+          <li>Mern Full Stack</li>
+          <li>Flutter Mobile App</li>
+          <li>React Js</li>
+          <li>UI/UX</li>
+          <li>front End Development</li>
+          
+         </ul>
+         <br>
+         <ul style="list-style: none;display: flex;flex-direction: row;margin-left: 300px;font-size: 17px;position: relative;bottom: 50px;font-weight: 450;">
+          <li>Data Science</li>
+          <li>AWS</li>
+          <li>.Net</li>
+          <li>Software Testing & Quality Assurance</li>
+          <li>Digital Marketing Training in Calicut</li>
+          
+          
+         </ul>
+         <hr>
+
+         
+         <div class="ft" style="text-align: center;">@2023 Powerded By <b>futura labs.</b>All Rights Reserved</div>
+              </div>
+            </div>
+
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+        
+        
+          </body>
+        </html>
+
+
+
+
+
+
+
+
+  
+
+    
+  
+
+  
+
+
+
+
+
+
+
+
+
